@@ -1,0 +1,29 @@
+{
+    "system": {
+      "server":{
+            "ip":"127.0.0.1",
+            "port":5750
+      }, 
+      "secret_key":"1522",  
+      "encryption": {
+        "iv": "9HOW7yJtHarrysWp", 
+        "key": "5ae1b8a17bad4da4fdac796f64c16ecd",
+        "cipher":"aes-256-cbc"
+      },
+      "repo": [
+          {
+            "name":"ser163/blog",
+            "user":"root",
+            "generate":true,
+            "cmd":"test.ejsh",
+            "ext":".bat",
+            "arg":""
+          }
+      ],
+      "firewall":{
+          "state":false,
+          "ipv4":["127.0.0.1"],
+          "ipv6":[]
+      }
+    }
+  }

@@ -1,0 +1,29 @@
+{
+  "name": "bootserver",
+  "version": "1.0.0",
+  "description": "BootServer",
+  "main": "bserver.js",
+  "dependencies": {
+    "config": "^3.0.1",
+    "ejs": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ser163/bootserver.git"
+  },
+  "keywords": [
+    "github",
+    "bot",
+    "bootserver"
+  ],
+  "author": "Harry Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ser163/bootserver/issues"
+  },
+  "homepage": "https://github.com/ser163/bootserver#readme"
+}
