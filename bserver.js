@@ -39,6 +39,7 @@ function runbashcmd(bashfile, arg) {
   const { execFile } = require('child_process');
   const child = execFile(bashfile, arg, defaults, (error, stdout, stderr) => {
     if (error) {
+      console.log(stderr);
       throw error;
     }
     console.log(stdout);
